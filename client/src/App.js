@@ -7,6 +7,7 @@ import OtherPage from "./OtherPage";
 function App() {
     return (
         <Router>
+            <h1>Welcome to KUBERNETES!</h1>
             <Link to="/">Home</Link>
             <Link to="/otherpage">Other Page</Link>
 
