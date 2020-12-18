@@ -20,3 +20,9 @@ before_install:
 
 script:
     - docker run -e CI=true bgpark82/react-test npm test
+
+deploy:
+    provider: script
+    script: bash ./deploy.sh
+    on:
+        branch: master
